@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Año Nuevo</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            overflow: hidden;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(45deg, #ff4e50, #ff6f91, #ffcc70, #ffeead);
+            background-size: 400% 400%;
+            animation: gradient 5s ease infinite;
+        }
+
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        #countdown {
+            font-size: 50px;
+            color: white;
+            position: relative;
+            z-index: 1;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        #video {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 0;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+
+        h1 {
+            font-size: 3em;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="countdown"></div>
+    <video id="video" autoplay muted loop>
+        <source src="main.mp4" type="video/mp4">
+        Tu navegador no soporta el formato de video.
+    </video>
+
+    <script>
+        function updateCountdown() {
+            // Fecha de la medianoche (00:00) del próximo año
+            let now = new Date();
+            let nextYear = now.getFullYear() + 1;
+            let midnight = new Date(`January 1, ${nextYear} 00:00:00`);
+            
+            // Calcular la diferencia en segundos
+            let diff = (midnight - now) / 1000;
+            
+            // Calcular horas, minutos y segundos restantes
+            let hours = Math.floor(diff / 3600);
+            diff -= hours * 3600;
+            let minutes = Math.floor(diff / 60);
+            let seconds = Math.floor(diff % 60);
+            
+            // Mostrar el contador
+            document.getElementById("countdown").innerText = `${hours} horas ${minutes} minutos ${seconds} segundos`;
+
+            // Reproducir video cuando faltan 10 segundos
+            if (diff <= 10) {
+                document.getElementById("video").style.display = "block";
+                document.getElementById("video").play();
+            }
+        }
+
+        // Actualizar el contador cada segundo
+        setInterval(updateCountdown, 1000);
+        updateCountdown();  // Llamar la primera vez para iniciar el contador
+    </script>
+</body>
+</html>
