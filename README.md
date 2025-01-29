@@ -24,9 +24,3 @@ Este es un **contador regresivo de Año Nuevo**, diseñado para marcar la cuenta
 📜 Licencia
 
 Este proyecto está bajo la licencia MIT.
-
-🔗 Visita mi GitHub | 📧 Contacto
-
-
-Este README ayudará a que tu repositorio luzca más profesional y atractivo para otros. 🚀 ¿Quieres que haga lo mismo con otros repositorios?
-
