@@ -14,9 +14,8 @@ This is a New Year's countdown timer, designed to visually and interactively mar
    ```sh
    git clone https://github.com/sitrayas/HappyNewYear.git
 
-    Open index.html in your favorite browser.
+ Open index.html in your favorite browser.
     Enjoy the countdown to the New Year! 🎊
-
 # 💡 Contributions
 
 Contributions are welcome! If you have ideas to improve the countdown, feel free to fork the repository and submit a pull request.
