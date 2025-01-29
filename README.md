@@ -10,9 +10,9 @@ This is a New Year's countdown timer, designed to visually and interactively mar
 
 # 🚀 How to Use
 
-  ```sh
+1. Clona el repositorio:
+   ```sh
    git clone https://github.com/sitrayas/HappyNewYear.git
-
 
     Open index.html in your favorite browser.
     Enjoy the countdown to the New Year! 🎊
