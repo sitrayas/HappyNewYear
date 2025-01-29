@@ -1,26 +1,25 @@
 # 🎉 Happy New Year Countdown ⏳
 
-Este es un **contador regresivo de Año Nuevo**, diseñado para marcar la cuenta atrás de forma visual e interactiva.
+This is a New Year's countdown timer, designed to visually and interactively mark the countdown.
+📝 Features
 
-## 📝 Características
+    📆 Displays an accurate countdown to the New Year.
+    🎆 Attractive animations for a better visual experience.
+    📽️ Includes a video (main.mp4) for a special New Year’s welcome.
+    📄 Simple and easy to modify with HTML, CSS, and JavaScript.
 
-- 📆 Muestra un contador regresivo preciso hasta el Año Nuevo.
-- 🎆 Animaciones atractivas para una mejor experiencia visual.
-- 📽️ Incluye un video (`main.mp4`) para una bienvenida especial al nuevo año.
-- 📄 Simple y fácil de modificar con HTML, CSS y JavaScript.
+🚀 How to Use
 
+    Clone the repository:
+  ```sh
+    git clone https://github.com/sitrayas/HappyNewYear.git
 
-## 🚀 Cómo Usarlo
+    Open index.html in your favorite browser.
+    Enjoy the countdown to the New Year! 🎊
 
-1. Clona el repositorio:
-   ```sh
-   git clone https://github.com/sitrayas/HappyNewYear.git
-2. Abre index.html en tu navegador favorito.
-3. ¡Disfruta la cuenta regresiva hasta el Año Nuevo! 🎊
+💡 Contributions
 
-💡 Contribuciones
+Contributions are welcome! If you have ideas to improve the countdown, feel free to fork the repository and submit a pull request.
+📜 License
 
-¡Las contribuciones son bienvenidas! Si tienes ideas para mejorar el contador, siéntete libre de hacer un fork y enviar un pull request.
-📜 Licencia
-
-Este proyecto está bajo la licencia MIT.
+This project is licensed under the MIT License.
