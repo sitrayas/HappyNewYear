@@ -8,16 +8,16 @@ This is a New Year's countdown timer, designed to visually and interactively mar
     📽️ Includes a video (main.mp4) for a special New Year’s welcome.
     📄 Simple and easy to modify with HTML, CSS, and JavaScript.
 
-🚀 How to Use
+# 🚀 How to Use
 
-    Clone the repository:
   ```sh
-    git clone https://github.com/sitrayas/HappyNewYear.git
+   git clone https://github.com/sitrayas/HappyNewYear.git
+
 
     Open index.html in your favorite browser.
     Enjoy the countdown to the New Year! 🎊
 
-💡 Contributions
+# 💡 Contributions
 
 Contributions are welcome! If you have ideas to improve the countdown, feel free to fork the repository and submit a pull request.
 📜 License
